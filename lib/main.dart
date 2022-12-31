@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_teste/reponsividade_media_query.dart';
+import 'package:flutter_web_teste/responsividade_orientation_builder.dart';
 import 'package:flutter_web_teste/responsividade_row_col.dart';
 import 'package:flutter_web_teste/responsividade_wrap.dart';
 
@@ -20,7 +21,8 @@ class _PaginaState extends State<Pagina> {
     return const MaterialApp(
       // home: Home(),
       // home: Responsividade(),
-      home: ResponsividadeWraper(),
+      // home: ResponsividadeWraper(),
+      home: ResponsividadeOrientationBuilder(),
       title: "Flutter Web",
       debugShowCheckedModeBanner: false,
     );
