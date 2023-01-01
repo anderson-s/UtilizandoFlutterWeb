@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web_teste/reponsividade_media_query.dart';
-import 'package:flutter_web_teste/responsividade_layout_builder.dart';
-import 'package:flutter_web_teste/responsividade_orientation_builder.dart';
-import 'package:flutter_web_teste/responsividade_row_col.dart';
-import 'package:flutter_web_teste/responsividade_wrap.dart';
+import 'package:flutter_web_teste/home.dart';
+// import 'package:flutter_web_teste/reponsividade_media_query.dart';
+// import 'package:flutter_web_teste/responsividade_layout_builder.dart';
+// import 'package:flutter_web_teste/responsividade_orientation_builder.dart';
+// import 'package:flutter_web_teste/responsividade_row_col.dart';
+// import 'package:flutter_web_teste/responsividade_wrap.dart';
 
 void main() {
   runApp(const Pagina());
@@ -20,11 +21,11 @@ class _PaginaState extends State<Pagina> {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      // home: Home(),
+      home: Inicio(),
       // home: Responsividade(),
       // home: ResponsividadeWraper(),
       // home: ResponsividadeOrientationBuilder(),
-      home: ResponsividadelayoutBuilder(),
+      // home: ResponsividadelayoutBuilder(),
       title: "Flutter Web",
       debugShowCheckedModeBanner: false,
     );
